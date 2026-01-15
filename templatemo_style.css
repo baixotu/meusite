@@ -1,63 +1,30 @@
-/* RESTAURAÇÃO TOTAL CRF INFO */
-
-body {
-    margin: 0; padding: 0; color: #666;
-    font-family: Tahoma, Geneva, sans-serif; font-size: 12px;
+/* ESTILO DO TOPO - TEXTO BRANCO E MAIOR */
+#header_content p {
+    font-size: 18px;         /* Tamanho maior conforme original */
+    color: #FFFFFF;         /* Branco puro */
     line-height: 1.7em;
-    background: url(images/templatemo_body.jpg) top repeat-x #dbdbdd;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Sombra leve para ler melhor no fundo verde */
 }
 
-#templatemo_body_wrapper {
-    width: 100%;
-    background: url(images/templatemo_header.jpg) center top no-repeat;
-}
-
-#templatemo_wrapper { width: 984px; margin: 0 auto; }
-
-#tempaltemo_header { 
-    position: relative; width: 984px; height: 325px; 
-    background: url(images/templatemo_header.jpg) no-repeat center top;
-}
-
-#header_icon {
-    position: absolute; top: 130px; left: 660px;
-    width: 220px; height: 197px;
-    background: url(images/monitor_icon.png) no-repeat;
-}
-
-#header_content { float: left; margin: 130px 0 0 90px; width: 460px; }
-
-#header_content p { font-size: 18px; color: #fff; line-height: 1.5em; margin: 10px 0; }
-
-/* ESTILO DO BOTÃO BLOG */
+/* GARANTE QUE O BOTÃO BLOG NÃO SEJA AFETADO PELO TEXTO BRANCO */
 a.detail {
-    display: block; width: 128px; height: 51px; padding-top: 9px;
-    text-align: center; color: #ffc; font-size: 18px; font-weight: normal;
+    display: block;
+    width: 128px;
+    height: 51px;
+    padding-top: 9px;
+    text-align: center;
+    color: #ffc;            /* Cor amarelada original do botão */
+    font-size: 18px;
     background: url(images/templatemo_button_01.png) no-repeat;
     text-decoration: none;
-}
-a.detail:hover { color: #fff; text-decoration: none; }
-
-.float_r { float: right; }
-
-/* CONTEÚDO PRINCIPAL (QUADRO BRANCO) */
-#templatemo_main_top {
-    width: 984px; height: 30px; clear: both;
-    background: url(images/templatemo_content_top.png) no-repeat;
+    float: right;
 }
 
-#templatemo_main {
-    width: 900px; padding: 10px 42px; color: #666;
-    background: url(images/templatemo_content_middle.png) repeat-y;
+/* POSICIONAMENTO DO CONTEÚDO DO TOPO */
+#header_content {
+    float: left;
+    margin: 120px 0 0 90px; /* Ajuste para o texto não bater no logo */
+    width: 460px;
 }
-
-#templatemo_main h2 { color: #252323; font-weight: normal; font-size: 26px; margin: 0 0 20px; }
-
-#templatemo_main_bottom {
-    width: 984px; height: 30px;
-    background: url(images/templatemo_content_bottom.png) no-repeat;
-}
-
-/* LINKS */
-a, a:link, a:visited { color: #777700; text-decoration: none; }
-a:hover { color: #0066FF; text-decoration: underline; }
