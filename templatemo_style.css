@@ -9,7 +9,7 @@ body {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
 	line-height: 1.7em; 
-	background: url(images/templatemo_body.jpg);
+	background: url(/images/templatemo_body.jpg);
 	background-color: #dbdbdd;
 	background-position: top;
 	background-repeat: repeat-x;
@@ -37,7 +37,17 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 .h50 { height: 50px }
 .h60 { height: 60px }
 
-a.detail { display: block; width: 128px; height: 51px; padding: 9px 0 0 0; text-align: center; color: #ffc; font-size: 18px; background: url(images/templatemo_button_01.png) }
+a.detail {
+	display: block;
+	width: 128px;
+	height: 51px;
+	padding: 9px 0 0 0;
+	text-align: center;
+	color: #ffc;
+	font-size: 18px;
+	background: url(/images/templatemo_button_01.png);
+}
+
 a.detail:hover { color: #fff; text-decoration: none }
 
 .float_l { float: left }
@@ -55,26 +65,29 @@ em { color: #000; }
 .testimonial { font-size: 16px; line-height: 30px; }
 
 .tmo_list { margin: 0 0 0 10px; padding: 0; list-style: none }
-.tmo_list li { color:#666; margin:0 0 2px; padding: 0 0 3px 25px; background: transparent url(images/templatemo_list.png)  no-repeat scroll 0 3px }
-.tmo_list li a { color: #666 }
-.tmo_list li a:hover { color: #666 }
+.tmo_list li {
+	color:#666;
+	margin:0 0 2px;
+	padding: 0 0 3px 25px;
+	background: transparent url(/images/templatemo_list.png) no-repeat scroll 0 3px;
+}
 
 #templatemo_body_wrapper {
 	width: 100%;
-	background: url(images/templatemo_header.jpg) center top no-repeat;
+	background: url(/images/templatemo_header.jpg) center top no-repeat;
 }
 
 #templatemo_wrapper {
 	width: 984px;
 	margin: 0 auto;
-	background: url(images/templatemo_header.jpg) center top no-repeat;
+	background: url(/images/templatemo_header.jpg) center top no-repeat;
 }
 
 #tempaltemo_header { 
 	position: relative;
 	width: 984px;
 	height: 325px;
-	background: url(images/templatemo_header.jpg) no-repeat center top
+	background: url(/images/templatemo_header.jpg) no-repeat center top;
 }
 
 #header_icon {
@@ -83,174 +96,81 @@ em { color: #000; }
 	left: 660px;
 	width: 220px;
 	height: 197px;
-	background: url(images/monitor_icon.png);
-}
-
-#header_content {
-	float: left;
-	margin: 130px 0 0 90px;
-	width: 460px;	
-}
-
-#site_title a {
-	display: block;
-	margin-bottom: 10px;
-	font-size: 24px;
-	color: #fff;
-	font-weight: normal;
-	text-decoration: none
-}
-
-#header_content p {
-	font-size: 18px;
-	color: #fff;
-	text-align: justify;
+	background: url(/images/monitor_icon.png);
 }
 
 #templatemo_main_top {
 	width: 984px;
 	height: 30px;
-	background: url(images/templatemo_content_top.png) no-repeat 
+	background: url(/images/templatemo_content_top.png) no-repeat;
 }
 
 #templatemo_main_bottom {
 	width: 984px;
 	height: 30px;
-	background: url(images/templatemo_content_bottom.png) no-repeat 
+	background: url(/images/templatemo_content_bottom.png) no-repeat;
 }
 
 #templatemo_main {
 	position: relative;
 	width: 900px;
 	padding: 10px 42px;
-	background: url(images/templatemo_content_middle.png) repeat-y
+	background: url(/images/templatemo_content_middle.png) repeat-y;
 }
 
-#main_top { position: absolute; left: 289px; top: 0px; width: 13px; height: 364px; background: url(images/templatemo_sidebar_top.jpg) 0 -30px no-repeat }
-#main_bottom { position: absolute; left: 289px; bottom: 0px; width: 13px; height: 364px; background: url(images/templatemo_sidebar_bottom.jpg) 0 scroll no-repeat }
-
-#templatemo_sidebar {
-	float: left;
-	width: 235px;
+#main_top {
+	background: url(/images/templatemo_sidebar_top.jpg) no-repeat;
 }
 
-.sidebar_box { clear: both;	width: 235px; margin-bottom: 30px; }
+#main_bottom {
+	background: url(/images/templatemo_sidebar_bottom.jpg) no-repeat;
+}
 
 .sb_title {
-	width: 175px;
-	height: 20px;
-	padding: 9px 30px;
-	font-size: 18px;
-	color: #666666;
-	background: url(images/templatemo_sidebar_box_top.jpg) no-repeat top left;
+	background: url(/images/templatemo_sidebar_box_top.jpg) no-repeat;
 }
-.sb_content { 
-	padding: 20px 30px;
-	background: url(images/templatemo_sidebar_box_middle.jpg) repeat-y left;
+
+.sb_content {
+	background: url(/images/templatemo_sidebar_box_middle.jpg) repeat-y;
 }
+
 .sb_bottom {
-	height: 8px;
-	background: url(images/templatemo_sidebar_box_bottom.jpg) no-repeat top left
-}
-
-
-/* menu */
-
-#templatemo_menu {
-	width: 235px;
-	margin-bottom: 20px;
-}
-
-#templatemo_menu ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+	background: url(/images/templatemo_sidebar_box_bottom.jpg) no-repeat;
 }
 
 #templatemo_menu ul li {
-	padding: 10px 0 0;
-	margin: 0;
-	display: block;
-	height: 36px;
-	background: url(images/templatemo_menu_divider.jpg) left bottom no-repeat
+	background: url(/images/templatemo_menu_divider.jpg) left bottom no-repeat;
 }
 
-#templatemo_menu ul li a {
-	display: block;
-	height: 36px;
-	padding: 0 0 0 30px;
-	font-size: 16px;
-	color: #444444;	
-	text-decoration: none;
-	font-weight: normal;
-	outline: none;
-	border: none;
+#templatemo_menu ul li a:hover,
+#templatemo_menu ul .current {
+	background: url(/images/templatemo_menu_hover.png) left top no-repeat;
 }
 
-#templatemo_menu ul li a:hover, #templatemo_menu ul .current {
-	padding-left: 60px;
-	color: #777700;
-	background: url(images/templatemo_menu_hover.png) left top no-repeat
+#login_form .login_input {
+	background: url(/images/templatemo_text.jpg) no-repeat;
 }
 
-/* end of menu */
+#login_form #login_submit {
+	background: url(/images/templatemo_login.jpg) no-repeat;
+}
 
-#login_form form { margin: 0; padding: 0 }
-#login_form p { margin-bottom: 15px }
-#login_form p span { display: block }
-#login_form .login_input { width: 173px; height: 28px; border: none; color: #999; background: url(images/templatemo_text.jpg) no-repeat }
-#login_form #login_submit { width: 77px; height: 28px; cursor: pointer; border: none; background: url(images/templatemo_login.jpg) no-repeat }
-
-.sb_news_box { border-bottom: 1px solid #ccc; padding: 0 0 20px 25px; margin-bottom: 20px; background: url(images/templatemo_news.png) top left no-repeat }
-.sb_news_box a { color: #333 }
-.sb_news_box span { display: block; color: #8e9924 }
-.last_box { margin: 0; padding-bottom: 0; border: none }
-
-#templatemo_content {
-	float: right;
-	width: 610px;
+.sb_news_box {
+	background: url(/images/templatemo_news.png) top left no-repeat;
 }
 
 .content_box {
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	background: url(images/templatemo_horizontal_divider.jpg) center bottom no-repeat;
+	background: url(/images/templatemo_horizontal_divider.jpg) center bottom no-repeat;
 }
 
-h2.title_icon {	padding: 15px 0 15px 60px; margin-bottom: 15px }
-h2.why_choose_us { background: url(images/icon_01.png) center left no-repeat }
-h2.new_services { background: url(images/icon_02.png) center left no-repeat }
+h2.why_choose_us {
+	background: url(/images/icon_01.png) center left no-repeat;
+}
+
+h2.new_services {
+	background: url(/images/icon_02.png) center left no-repeat;
+}
 
 .col_w290 {
-	width: 260px;
-	padding-right: 30px;
-	background: url(images/templatemo_vertical_divider.jpg) center right no-repeat
+	background: url(/images/templatemo_vertical_divider.jpg) center right no-repeat;
 }
-.cw290_last { background: none }
-
-#gallery a { display: block; float: left; margin-right: 30px }
-#gallery a img { border: 5px solid #ccc }
-
-/* footer */
-
-#templatemo_footer_wrapper {
-	clear: both;
-	width: 100%;
-	border-left: none;
-	border-right: none;
-	background: #252525;
-}
-
-#templatemo_footer {
-	width: 984px;
-	margin: 0 auto;
-	text-align: center;
-	color: #CCCCCC;
-	padding: 5px 0;
-}
-
-#templatemo_footer a {
-	color: #CCCCCC;
-}
-
-/* end of footer */
