@@ -1,0 +1,12 @@
+User-agent: *
+
+Disallow: /local/
+Disallow: /suporte/
+Disallow: /pagamento/
+Disallow: /loja/
+Disallow: /teste/
+
+Sitemap: http://www.computadoresbr.com.br/sitemap.xml
+Sitemap: http://www.computadoresbr.com.br/ror.xml
+Sitemap: http://www.computadoresbr.com.br/site_map.xml
+Sitemap: http://www.computadoresbr.com.br/sitemapindex.xml

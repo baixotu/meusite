@@ -1,0 +1,60 @@
+@namespace rdf url(http://www.w3.org/1999/02/22-rdf-syntax-ns#);
+
+Resource {
+  display:block;
+  font-family:verdana, sans-serif;
+  margin:2em 3em 0em 3em;
+  padding:1em;
+  color:#000000;
+  background:#DDDDFF;
+  border:solid #AAAAFF 2px;
+}
+
+title {
+  display:block;
+  font-size:1.1em;
+  color:inherit;
+  background:inherit;
+  font-weight:bold;
+}
+
+type:before
+{
+  content: 'type';
+} 
+
+
+resourceOf:after
+{
+  content: 'resourceOf attr(rdf|resource)';
+}
+
+seeAlso:after
+{
+  content: 'seeAlso attr(rdf|resource)';
+}
+
+Resource:after
+{
+  content: 'about attr(rdf|about)';
+}
+
+
+rorinfo {
+  background-image: url(http://www.addme.com/rorinfo.gif);
+  background-repeat: no-repeat;
+  margin:0em 0em 2em 0em;
+  display:block;
+  color:#000000;
+  background:#FFFFFF;
+  border:solid #AAAAFF 2px;
+  text-align:center;
+  padding:2em;
+  font-family:mono;
+  font-size:1.1em;
+}
+
+* {
+  display:block;
+}
+

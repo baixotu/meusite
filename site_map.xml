@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="ror.css" type="text/css"?>
+<!-- This is a ROR formatted XML document describing the resources of the website http://www.computadoresbr.com.br. For information about the ROR format, go to www.rorweb.com --> 
+<rdf:RDF xmlns="http://rorweb.com/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<!-- ******************** Main Info ******************** --> 
+<Resource rdf:about="main">
+    <rorinfo>CRF INFO - Serviços Técnicos de Informática. Manutenção em Computadores e Redes.</rorinfo>
+    <type>Main Website</type>
+    <title>CRF INFO. Consultoria em Informática.</title>
+    <url>http://www.computadoresbr.com.br</url>
+    <desc>Manutenão de Computadores e Redes. Windows e Linux. Configuração de Roteadores e Câmeras IP. Atendimento no local.</desc>
+    <keywords>técnico, informática, windows, vírus, linux, formatação, backup, empresa, notebook, câmeras, roteador, internet</keywords>
+    <image>http://www.computadoresbr.com.br/images/logo.jpg</image>
+</Resource>
+
+<!-- ******************** Contact Info ***************** --> 
+<Resource rdf:about="contact">
+    <type>Contact</type>
+    <title>CRF INFO.</title>
+    <name>CRF INFO. Serviços Técnicos de Informática. Consultoria Técnica.</name>
+    <url>http://www.computadoresbr.com.br</url>
+    <phone>+55-11-4786-3555</phone>
+    <map>http://www.computadoresbr.com.br/local</map>
+    <resourceOf rdf:resource="main"/>
+</Resource>
+
+<Resource rdf:about="address">
+    <type>Address</type>
+    <title>Address</title>
+    <address1>Rua Angela Maria Cardoso, 258</address1>
+    <city>Taboão da Serra</city>
+    <postalCode>06795-070</postalCode>
+    <stateRegion>São Paulo</stateRegion>
+    <country>Brasil</country>
+    <resourceOf rdf:resource="contact"/>
+</Resource>
+
+<!-- ******************** Site Map Info ***************** --> 
+<Resource rdf:about="sitemap">
+ 
+  <title>CDF INFO.</title>
+  <desc>Página principal. Manutenção de Computadores.</desc> 
+  <url>http://www.computadoresbr.com.br/</url>
+
+  <title>CRF INFO. Suporte Remoto.</title>
+  <desc>Suporte Remoto e Downloads.</desc> 
+  <url>http://www.computadoresbr.com.br/suporte.html</url>
+
+  <title>CRF INFO. Blog.</title>
+  <desc>Blog: Dúvidas sobre Informática.</desc> 
+  <url>http://www.computadoresbr.com.br/blog/</url>
+
+  <title>CRF INFO. Cartão.</title>
+  <desc>Cartão Técnico de Informática.</desc> 
+  <url>http://www.computadoresbr.com.br/cartao_tecnico_informatica.pdf</url>
+
+  <title>CRF INFO. Portal da Cidade.</title>
+  <desc>Técnico de Informática - Condomínio São Cristóvão.</desc> 
+  <url>http://www.computadoresbr.com.br/CondominioSaoCristovao.html</url>
+
+  <title>CRF INFO. Contato.</title>
+  <desc>Contato com CRF INFO.</desc> 
+  <url>http://www.computadoresbr.com.br/contato.html</url>
+
+  <title>CRF INFO nas Redes Sociais.</title>
+  <desc>Contato com CRF INFO.</desc> 
+  <url>http://www.computadoresbr.com.br/social.html</url>
+
+    <title>Livro Contos Sobre a Morte.</title>
+    <name>Livro Contos Sobre a Morte.</name>
+    <url>https://computadoresbr.com.br/livros/contossobreamorte/</url>
+
+    <title>Livro Abóbora Maldita.</title>
+    <name>Livro Abóbora Maldita.</name>
+    <url>https://computadoresbr.com.br/livros/aboboramaldita/</url>
+
+    <title>Lojinha de livros.</title>
+    <name>Lojinha de livros.</name>
+    <url>https://livros.computadoresbr.com.br/</url>
+
+<Resource rdf:about="map-about">
+    <title>About</title>
+    <desc>Ha mais de 10 anos na área de consultora de informática. Manutenção de computadores e redes. Instalação de Roteadores e Câmeras IP.</desc>
+    <seeAlso rdf:resource="main"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+<Resource rdf:about="map-contact">
+    <title>Contact</title>
+    <name>Contatos com CRF INFO.</name>
+    <url>http://www.computadoresbr.com.br/contato.html</url>
+    <seeAlso rdf:resource="contact"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+</Resource>
