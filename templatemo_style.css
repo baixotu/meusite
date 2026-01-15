@@ -1,30 +1,27 @@
-/* ESTILO DO TOPO - TEXTO BRANCO E MAIOR */
-#header_content p {
-    font-size: 18px;         /* Tamanho maior conforme original */
-    color: #FFFFFF;         /* Branco puro */
-    line-height: 1.7em;
-    margin: 10px 0 0 0;
-    font-weight: normal;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Sombra leve para ler melhor no fundo verde */
+/* RODAPÉ - RESTAURAÇÃO DO FUNDO E CENTRALIZAÇÃO */
+#templatemo_footer_wrapper {
+    width: 100%;
+    background-color: #252323; /* Fundo escuro original */
+    padding: 20px 0;
+    margin-top: 20px;
+    clear: both;
 }
 
-/* GARANTE QUE O BOTÃO BLOG NÃO SEJA AFETADO PELO TEXTO BRANCO */
-a.detail {
-    display: block;
-    width: 128px;
-    height: 51px;
-    padding-top: 9px;
-    text-align: center;
-    color: #ffc;            /* Cor amarelada original do botão */
-    font-size: 18px;
-    background: url(images/templatemo_button_01.png) no-repeat;
+#templatemo_footer {
+    width: 984px;
+    margin: 0 auto;
+    text-align: center; /* Centraliza o texto */
+    color: #999;
+    font-size: 11px;
+}
+
+#templatemo_footer a {
+    color: #bbb;
     text-decoration: none;
-    float: right;
+    margin: 0 5px;
 }
 
-/* POSICIONAMENTO DO CONTEÚDO DO TOPO */
-#header_content {
-    float: left;
-    margin: 120px 0 0 90px; /* Ajuste para o texto não bater no logo */
-    width: 460px;
+#templatemo_footer a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
