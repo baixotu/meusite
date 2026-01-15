@@ -1,48 +1,38 @@
-/* Correção de Caminhos e Layout CRF INFO */
-
 body {
+    margin: 0; padding: 0; color: #666;
+    font-family: Tahoma, Geneva, sans-serif; font-size: 12px;
     background: url(images/templatemo_body.jpg) top repeat-x #dbdbdd;
-    margin: 0;
-    padding: 0;
 }
-
+#templatemo_body_wrapper {
+    width: 100%;
+    background: url(images/templatemo_header.jpg) center top no-repeat;
+}
+#templatemo_wrapper { width: 984px; margin: 0 auto; }
 #tempaltemo_header { 
-    position: relative;
-    width: 984px;
-    height: 325px; /* Altura original garantida */
-    margin: 0 auto;
+    position: relative; width: 984px; height: 325px; /* Altura que segura o layout */
     background: url(images/templatemo_header.jpg) no-repeat center top;
 }
-
 #header_icon {
-    position: absolute;
-    top: 130px;
-    left: 660px;
-    width: 220px;
-    height: 197px;
+    position: absolute; top: 130px; left: 660px;
+    width: 220px; height: 197px;
     background: url(images/monitor_icon.png) no-repeat;
-    z-index: 10;
 }
-
-#header_content {
-    float: left;
-    margin: 130px 0 0 90px;
-    width: 460px;
-    color: #fff;
-}
-
-/* Garante que o conteúdo branco não suba para o topo */
+#header_content { float: left; margin: 130px 0 0 90px; width: 460px; }
 #templatemo_main_top {
-    clear: both;
-    width: 984px;
-    height: 30px;
-    margin: 0 auto;
+    width: 984px; height: 30px; clear: both;
     background: url(images/templatemo_content_top.png) no-repeat;
 }
-
 #templatemo_main {
-    width: 900px;
-    margin: 0 auto;
-    padding: 10px 42px;
+    width: 900px; padding: 10px 42px;
     background: url(images/templatemo_content_middle.png) repeat-y;
+}
+#templatemo_main_bottom {
+    width: 984px; height: 30px;
+    background: url(images/templatemo_content_bottom.png) no-repeat;
+}
+a.detail {
+    display: block; width: 128px; height: 51px; padding-top: 9px;
+    text-align: center; color: #ffc; font-size: 18px;
+    background: url(images/templatemo_button_01.png) no-repeat;
+    text-decoration: none; float: right;
 }
