@@ -15,6 +15,58 @@ body {
     background-repeat: repeat-x;
 }
 
+#templatemo_body_wrapper {
+    width: 100%;
+    background: url(images/templatemo_header.jpg) center top no-repeat;
+}
+
+#templatemo_wrapper {
+    width: 984px;
+    margin: 0 auto;
+    background: url(images/templatemo_header.jpg) center top no-repeat;
+}
+
+#tempaltemo_header { 
+    position: relative;
+    width: 984px;
+    height: 325px;
+    background: url(images/templatemo_header.jpg) no-repeat center top;
+}
+
+#header_icon {
+    position: absolute;
+    top: 130px;
+    left: 660px;
+    width: 220px;
+    height: 197px;
+    background: url(images/monitor_icon.png) no-repeat;
+}
+
+#header_content {
+    float: left;
+    margin: 130px 0 0 90px;
+    width: 460px;    
+}
+
+#templatemo_main_top {
+    width: 984px;
+    height: 30px;
+    background: url(images/templatemo_content_top.png) no-repeat;
+}
+
+#templatemo_main {
+    position: relative;
+    width: 900px;
+    padding: 10px 42px;
+    background: url(images/templatemo_content_middle.png) repeat-y;
+}
+
+#templatemo_main_bottom {
+    width: 984px;
+    height: 30px;
+    background: url(images/templatemo_content_bottom.png) no-repeat;
+}
+
 a.detail {
     display: block;
     width: 128px;
@@ -25,33 +77,3 @@ a.detail {
     font-size: 18px;
     background: url(images/templatemo_button_01.png);
 }
-
-.tmo_list li {
-    background: transparent url(images/templatemo_list.png) no-repeat scroll 0 3px;
-}
-
-#templatemo_body_wrapper, #templatemo_wrapper, #tempaltemo_header {
-    background: url(images/templatemo_header.jpg) no-repeat center top;
-}
-
-#header_icon {
-    position: absolute;
-    top: 130px;
-    left: 660px;
-    width: 220px;
-    height: 197px;
-    background: url(images/monitor_icon.png);
-}
-
-#templatemo_main_top { background: url(images/templatemo_content_top.png) no-repeat; }
-#templatemo_main_bottom { background: url(images/templatemo_content_bottom.png) no-repeat; }
-#templatemo_main { background: url(images/templatemo_content_middle.png) repeat-y; }
-
-/* Outros elementos de fundo */
-#main_top { background: url(images/templatemo_sidebar_top.jpg) no-repeat; }
-#main_bottom { background: url(images/templatemo_sidebar_bottom.jpg) no-repeat; }
-.sb_title { background: url(images/templatemo_sidebar_box_top.jpg) no-repeat; }
-.sb_content { background: url(images/templatemo_sidebar_box_middle.jpg) repeat-y; }
-.sb_bottom { background: url(images/templatemo_sidebar_box_bottom.jpg) no-repeat; }
-#templatemo_menu ul li { background: url(images/templatemo_menu_divider.jpg) left bottom no-repeat; }
-#templatemo_menu ul li a:hover { background: url(images/templatemo_menu_hover.png) left top no-repeat; }
