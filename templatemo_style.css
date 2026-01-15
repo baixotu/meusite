@@ -3,16 +3,16 @@ Credit: http://www.templatemo.com
 */
 
 body {
-	margin: 0px;
-	padding: 0px;
-	color: #666;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 12px;
-	line-height: 1.7em; 
-	background: url(/images/templatemo_body.jpg);
-	background-color: #dbdbdd;
-	background-position: top;
-	background-repeat: repeat-x;
+    margin: 0px;
+    padding: 0px;
+    color: #666;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 1.7em; 
+    background: url(images/templatemo_body.jpg);
+    background-color: #dbdbdd;
+    background-position: top;
+    background-repeat: repeat-x;
 }
 
 a, a:link, a:visited { color: #777700; text-decoration: none; }
@@ -38,14 +38,14 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 .h60 { height: 60px }
 
 a.detail {
-	display: block;
-	width: 128px;
-	height: 51px;
-	padding: 9px 0 0 0;
-	text-align: center;
-	color: #ffc;
-	font-size: 18px;
-	background: url(/images/templatemo_button_01.png);
+    display: block;
+    width: 128px;
+    height: 51px;
+    padding: 9px 0 0 0;
+    text-align: center;
+    color: #ffc;
+    font-size: 18px;
+    background: url(images/templatemo_button_01.png);
 }
 
 a.detail:hover { color: #fff; text-decoration: none }
@@ -66,111 +66,111 @@ em { color: #000; }
 
 .tmo_list { margin: 0 0 0 10px; padding: 0; list-style: none }
 .tmo_list li {
-	color:#666;
-	margin:0 0 2px;
-	padding: 0 0 3px 25px;
-	background: transparent url(/images/templatemo_list.png) no-repeat scroll 0 3px;
+    color:#666;
+    margin:0 0 2px;
+    padding: 0 0 3px 25px;
+    background: transparent url(images/templatemo_list.png) no-repeat scroll 0 3px;
 }
 
 #templatemo_body_wrapper {
-	width: 100%;
-	background: url(/images/templatemo_header.jpg) center top no-repeat;
+    width: 100%;
+    background: url(images/templatemo_header.jpg) center top no-repeat;
 }
 
 #templatemo_wrapper {
-	width: 984px;
-	margin: 0 auto;
-	background: url(/images/templatemo_header.jpg) center top no-repeat;
+    width: 984px;
+    margin: 0 auto;
+    background: url(images/templatemo_header.jpg) center top no-repeat;
 }
 
 #tempaltemo_header { 
-	position: relative;
-	width: 984px;
-	height: 325px;
-	background: url(/images/templatemo_header.jpg) no-repeat center top;
+    position: relative;
+    width: 984px;
+    height: 325px;
+    background: url(images/templatemo_header.jpg) no-repeat center top;
 }
 
 #header_icon {
-	position: absolute;
-	top: 130px;
-	left: 660px;
-	width: 220px;
-	height: 197px;
-	background: url(/images/monitor_icon.png);
+    position: absolute;
+    top: 130px;
+    left: 660px;
+    width: 220px;
+    height: 197px;
+    background: url(images/monitor_icon.png);
 }
 
 #templatemo_main_top {
-	width: 984px;
-	height: 30px;
-	background: url(/images/templatemo_content_top.png) no-repeat;
+    width: 984px;
+    height: 30px;
+    background: url(images/templatemo_content_top.png) no-repeat;
 }
 
 #templatemo_main_bottom {
-	width: 984px;
-	height: 30px;
-	background: url(/images/templatemo_content_bottom.png) no-repeat;
+    width: 984px;
+    height: 30px;
+    background: url(images/templatemo_content_bottom.png) no-repeat;
 }
 
 #templatemo_main {
-	position: relative;
-	width: 900px;
-	padding: 10px 42px;
-	background: url(/images/templatemo_content_middle.png) repeat-y;
+    position: relative;
+    width: 900px;
+    padding: 10px 42px;
+    background: url(images/templatemo_content_middle.png) repeat-y;
 }
 
 #main_top {
-	background: url(/images/templatemo_sidebar_top.jpg) no-repeat;
+    background: url(images/templatemo_sidebar_top.jpg) no-repeat;
 }
 
 #main_bottom {
-	background: url(/images/templatemo_sidebar_bottom.jpg) no-repeat;
+    background: url(images/templatemo_sidebar_bottom.jpg) no-repeat;
 }
 
 .sb_title {
-	background: url(/images/templatemo_sidebar_box_top.jpg) no-repeat;
+    background: url(images/templatemo_sidebar_box_top.jpg) no-repeat;
 }
 
 .sb_content {
-	background: url(/images/templatemo_sidebar_box_middle.jpg) repeat-y;
+    background: url(images/templatemo_sidebar_box_middle.jpg) repeat-y;
 }
 
 .sb_bottom {
-	background: url(/images/templatemo_sidebar_box_bottom.jpg) no-repeat;
+    background: url(images/templatemo_sidebar_box_bottom.jpg) no-repeat;
 }
 
 #templatemo_menu ul li {
-	background: url(/images/templatemo_menu_divider.jpg) left bottom no-repeat;
+    background: url(images/templatemo_menu_divider.jpg) left bottom no-repeat;
 }
 
 #templatemo_menu ul li a:hover,
 #templatemo_menu ul .current {
-	background: url(/images/templatemo_menu_hover.png) left top no-repeat;
+    background: url(images/templatemo_menu_hover.png) left top no-repeat;
 }
 
 #login_form .login_input {
-	background: url(/images/templatemo_text.jpg) no-repeat;
+    background: url(images/templatemo_text.jpg) no-repeat;
 }
 
 #login_form #login_submit {
-	background: url(/images/templatemo_login.jpg) no-repeat;
+    background: url(images/templatemo_login.jpg) no-repeat;
 }
 
 .sb_news_box {
-	background: url(/images/templatemo_news.png) top left no-repeat;
+    background: url(images/templatemo_news.png) top left no-repeat;
 }
 
 .content_box {
-	background: url(/images/templatemo_horizontal_divider.jpg) center bottom no-repeat;
+    background: url(images/templatemo_horizontal_divider.jpg) center bottom no-repeat;
 }
 
 h2.why_choose_us {
-	background: url(/images/icon_01.png) center left no-repeat;
+    background: url(images/icon_01.png) center left no-repeat;
 }
 
 h2.new_services {
-	background: url(/images/icon_02.png) center left no-repeat;
+    background: url(images/icon_02.png) center left no-repeat;
 }
 
 .col_w290 {
-	background: url(/images/templatemo_vertical_divider.jpg) center right no-repeat;
+    background: url(images/templatemo_vertical_divider.jpg) center right no-repeat;
 }
