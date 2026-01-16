@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="ror.css" type="text/css"?>
 <rdf:RDF xmlns="http://rorweb.com/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
@@ -41,7 +41,7 @@
 
 <Resource rdf:about="map-about">
     <title>About</title>
-    <desc>Ha mais de 10 anos na área de consultora de informática. Manutenção de computadores e redes. Instalação de Roteadores e Câmeras IP.</desc>
+    <desc>Há mais de 10 anos na área de consultoria de informática. Manutenção de computadores e redes. Instalação de Roteadores e Câmeras IP.</desc>
     <seeAlso rdf:resource="main"/>
     <resourceOf rdf:resource="sitemap"/>
 </Resource>
