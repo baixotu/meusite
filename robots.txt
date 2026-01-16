@@ -2,6 +2,7 @@ User-agent: *
 
 Disallow: /images/
 Disallow: /js/
+Disallow: /css_pirobox/
 
 Sitemap: http://www.computadoresbr.com.br/sitemap.xml
 Sitemap: http://www.computadoresbr.com.br/ror.xml
