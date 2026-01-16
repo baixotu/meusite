@@ -34,10 +34,10 @@
 </Resource>
 
 <Resource rdf:about="sitemap">
- 
   <title>CRF INFO.</title>
   <desc>Página principal. Manutenção de Computadores.</desc> 
   <url>https://www.computadoresbr.com.br/</url>
+</Resource>
 
 <Resource rdf:about="map-about">
     <title>About</title>
@@ -53,4 +53,5 @@
     <seeAlso rdf:resource="contact"/>
     <resourceOf rdf:resource="sitemap"/>
 </Resource>
+
 </rdf:RDF>
