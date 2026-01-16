@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro</title>
+    <link rel="stylesheet" href="./style/style.css">
+    
+</head>
+<body>
+    <div class="screen">
+        <!-- book img -->
+        <div class="bookImg">
+            <div class="image">
+                <img src="./img/book.png" alt="Abóbora Maldita Contos Sobre a Morte">
+            </div>
+            <div class="spotifyPlayer">
+                <iframe class='spotifyEl' style="border-radius:12px" src="https://open.spotify.com/embed/episode/1ufrxVo4jHfNuUwrxVdysO?utm_source=generator&theme=0&t=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="youtubePlayer">
+                <iframe class='youtubeEl' width="100%" height="95" src="https://www.youtube.com/embed/HoBKP2qwk4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- about book -->
+        <div class="about">
+            <!-- title -->
+            <div>
+                <div class="title">
+                    <h2>Abóbora Maldita</h2>
+                    <h2>Contos Sobre a Morte</h2>
+                    <p class="grey">Por Claudio e Dalton</p>
+                </div>
+                <!-- about book -->
+                <div class="aboutBook">
+                    <h3>Sobre o Livro</h3>
+                    <p class="justify grey">Este livro foi escrito do nada para nada... Bom, na verdade não foi bem assim, os personagens e as histórias são fictícias, na verdade são alusões e homenagens a época que os autores viveram. Nascemos nos anos 70, vivemos e crescemos nos anos 70, 80, 90 e por aí seguimos, tanto que estamos vivos até hoje (2022) mas como eu ia dizendo, vivemos e vivenciamos uma época muito boa, época essa dos videocassetes VHS, através deles experimentamos uma parte boa de nossas vidas através dos filmes de ação, ficção, aventura, terror e Rock and Roll, contamos essas histórias, para relembramos essa época, nossas vivências, filmes, personagens memoráveis, vídeo games e músicas preferidas... O livro esta cheio das referências de todos esses materiais, easter eggs, etc! Enfim, esperemos que você goste dos contos do livro e se divirta com ele tanto quanto nós nos divertimos escrevendo.</p>
+                </div>
+                <!-- button and review -->
+                <div class="button">
+                    <div>
+                        <h3>Resenha</h3>
+                        <div class="link">
+                            <!-- <a href="https://www.youtube.com/watch?v=HoBKP2qwk4U" target="_blank">
+                                <img src="./img/review/youtube.svg" alt=" Resenha no Youtube" class="youtubeReview">
+                            </a> -->
+                            <!-- <a href="https://open.spotify.com/episode/1ufrxVo4jHfNuUwrxVdysO?si=jHTHqCk1T8OGS0ib3I5MBA&utm_source=%40baixotu&nd=1" target="_blank" class="spotifyLink">
+                                <img src="./img/review/spotify.svg" alt="Resenha no Spotify"
+                                class="spotifyReview">
+                            </a> -->
+
+                            <button onclick="showYoutubePlayer()" class="youtubeReview">
+                                <img src="./img/review/youtube.svg" alt="Youtube Player">
+                            </button>
+
+                            <button onclick="showSpotifyPlayer()" class="spotifyReview">
+                                <img src="./img/review/spotify.svg" alt="Spotify Player">
+                            </button>
+
+                        </div>
+                    </div>
+                    <button class="buy" onclick="showSideBar()">Comprar</button>
+                </div>
+                <div class="spotifyPlayerAbout">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1ufrxVo4jHfNuUwrxVdysO?utm_source=generator&theme=0&t=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="youtubePlayerAbout">
+                    <iframe class='youtubeEl'  width="100%" height="95" src="https://www.youtube.com/embed/HoBKP2qwk4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+            
+        </div>
+        
+
+        <!-- Side Bar -->
+        <div class="sideBar">
+            <div class="closeBtn">
+                <button onclick="toHideSideBar()"></button>
+            </div>
+<!-- Digital Version -->
+            <div class="buyStore">
+                <h3 class="grey showTitleSB">Versão Digital</h3>
+                <div class="store">
+                    <ul>
+                        <li>
+                            <a href="https://www.amazon.com.br/dp/B09WCN2XTZ" target="_blank">
+                                <img src="./img/storeImg/amazonBrasil.svg" alt="Amazon Brasil">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.amazon.com/gp/product/B09WCN2XTZ" target="_blank">
+                                <img src="./img/storeImg/amazonUSA.svg" alt="Amazon EUA">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://books.google.com.br/books?id=cYJlEAAAQBAJ" target="_blank">
+                                <img src="./img/storeImg/Google.svg" alt="Google">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<!-- Physical Version -->
+            <div class="buyStore">
+                <h3 class="grey showTitleSB">Versão Física</h3>
+                <div class="store">
+                    <ul>
+                        <li>
+                            <a href="https://loja.uiclap.com/titulo/ua19995/" target="_blank">
+                                <img src="./img/storeImg/uiclap.svg" alt="Uiclap">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://clubedeautores.com.br/livro/abobora-maldita" target="_blank">
+                                <img src="./img/storeImg/clubeDeAutores.svg" alt="Clube de Autores">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<!-- Free sample -->
+<div class="buyStore">
+    <h3 class="grey showTitleSB">Pegue Uma Amostra Grátis</h3>
+    <div class="store">
+        <ul>
+            <li>
+                <a href="https://play.google.com/store/books/details?id=cYJlEAAAQBAJ" target="_blank">
+                    <img src="./img/storeImg/Google.svg" alt="Uiclap">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- About Us -->
+<div class="buyStore">
+    <h3 class="grey showTitleSB">Um Pouco Mais Sobre Nós</h3>
+    <div class="store aboutUs">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/ContosSobreAMorte" target="_blank">
+                    <img src="./img/aboutUs/facebook.svg" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://baixotu.tumblr.com/" target="_blank">
+                    <img src="./img/aboutUs/tumblr.svg" alt="Tumblr">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/baixotu/" target="_blank">
+                    <img src="./img/storeImg/instagramClaudio.png" alt="Instagram Claudio">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/edaltonoficial" target="_blank">
+                    <img src="./img/storeImg/instagramErick.png" alt="Instagram Erick Dalton">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--  -->
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
