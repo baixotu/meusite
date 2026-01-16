@@ -5,12 +5,12 @@
 
 <!-- ******************** Main Info ******************** --> 
 <Resource rdf:about="main">
-    <rorinfo>CRF INFO - ServiÁos TÈcnicos de Inform·tica. ManutenÁ„o em Computadores e Redes.</rorinfo>
+    <rorinfo>CRF INFO - Servi√ßos T√©cnicos de Inform√°tica. Manuten√ß√£o em Computadores e Redes.</rorinfo>
     <type>Main Website</type>
-    <title>CRF INFO. Consultoria em Inform·tica.</title>
+    <title>CRF INFO. Consultoria em Inform√°tica.</title>
     <url>http://www.computadoresbr.com.br</url>
-    <desc>Manuten„o de Computadores e Redes. Windows e Linux. ConfiguraÁ„o de Roteadores e C‚meras IP. Atendimento no local.</desc>
-    <keywords>tÈcnico, inform·tica, windows, vÌrus, linux, formataÁ„o, backup, empresa, notebook, c‚meras, roteador, internet</keywords>
+    <desc>Manuten√£o de Computadores e Redes. Windows e Linux. Configura√ß√£o de Roteadores e C√¢meras IP. Atendimento no local.</desc>
+    <keywords>t√©cnico, inform√°tica, windows, v√≠rus, linux, formata√ß√£o, backup, empresa, notebook, c√¢meras, roteador, internet</keywords>
     <image>http://www.computadoresbr.com.br/images/logo.jpg</image>
 </Resource>
 
@@ -18,20 +18,20 @@
 <Resource rdf:about="contact">
     <type>Contact</type>
     <title>CRF INFO.</title>
-    <name>CRF INFO. ServiÁos TÈcnicos de Inform·tica. Consultoria TÈcnica.</name>
+    <name>CRF INFO. Servi√ßos T√©cnicos de Inform√°tica. Consultoria T√©cnica.</name>
     <url>http://www.computadoresbr.com.br</url>
     <phone>+55-11-4786-3555</phone>
-    <map>http://www.computadoresbr.com.br/local</map>
+    <map>http://www.computadoresbr.com.br</map>
     <resourceOf rdf:resource="main"/>
 </Resource>
 
 <Resource rdf:about="address">
     <type>Address</type>
     <title>Address</title>
-    <address1>Rua Angela Maria Cardoso, 258</address1>
-    <city>Tabo„o da Serra</city>
-    <postalCode>06795-070</postalCode>
-    <stateRegion>S„o Paulo</stateRegion>
+    <address1>Rua Juan Vicente, 482</address1>
+    <city>Osasco</city>
+    <postalCode>06160-180</postalCode>
+    <stateRegion>S√£o Paulo</stateRegion>
     <country>Brasil</country>
     <resourceOf rdf:resource="contact"/>
 </Resource>
@@ -40,37 +40,12 @@
 <Resource rdf:about="sitemap">
  
   <title>CDF INFO.</title>
-  <desc>P·gina principal. ManutenÁ„o de Computadores.</desc> 
+  <desc>P√°gina principal. Manuten√ß√£o de Computadores.</desc> 
   <url>http://www.computadoresbr.com.br/</url>
-
-  <title>CRF INFO. Suporte Remoto.</title>
-  <desc>Suporte Remoto e Downloads.</desc> 
-  <url>http://www.computadoresbr.com.br/suporte.html</url>
-
-  <title>CRF INFO. Blog.</title>
-  <desc>Blog: D˙vidas sobre Inform·tica.</desc> 
-  <url>http://www.computadoresbr.com.br/blog/</url>
-
-  <title>CRF INFO. Cart„o.</title>
-  <desc>Cart„o TÈcnico de Inform·tica.</desc> 
-  <url>http://www.computadoresbr.com.br/cartao_tecnico_informatica.pdf</url>
-
-  <title>CRF INFO. Cart„o.</title>
-  <desc>TÈcnico de Inform·tica no CondomÌnio S„o CristÛv„o - Osasco.</desc> 
-  <url>http://www.computadoresbr.com.br/CondominioSaoCristovao.html</url>
-
-  <title>CRF INFO. Contato.</title>
-  <desc>Contato com CRF INFO.</desc> 
-  <url>http://www.computadoresbr.com.br/contato.html</url>
-
-  <title>CRF INFO nas Redes Sociais.</title>
-  <desc>Contato com CRF INFO.</desc> 
-  <url>http://www.computadoresbr.com.br/social.html</url>
-  </Resource>
 
 <Resource rdf:about="map-about">
     <title>About</title>
-    <desc>Ha mais de 10 anos na ·rea de consultora de inform·tica. ManutenÁ„o de computadores e redes. InstalaÁ„o de Roteadores e C‚meras IP.</desc>
+    <desc>Ha mais de 10 anos na √°rea de consultora de inform√°tica. Manuten√ß√£o de computadores e redes. Instala√ß√£o de Roteadores e C√¢meras IP.</desc>
     <seeAlso rdf:resource="main"/>
     <resourceOf rdf:resource="sitemap"/>
 </Resource>
@@ -78,9 +53,10 @@
 <Resource rdf:about="map-contact">
     <title>Contact</title>
     <name>Contatos com CRF INFO.</name>
-    <url>http://www.computadoresbr.com.br/contato.html</url>
+    <url>http://www.computadoresbr.com.br</url>
     <seeAlso rdf:resource="contact"/>
     <resourceOf rdf:resource="sitemap"/>
 </Resource>
+
 
 </rdf:RDF>
